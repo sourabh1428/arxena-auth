@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Aclonica&family=DM+Sans:opsz@9..40&family=Gothic+A1&family=Inter&family=Libre+Franklin&family=Montserrat&family=Plus+Jakarta+Sans&family=Poppins&family=Preahvihear&family=Raleway&family=Roboto&family=Rubik&family=Varela+Round&display=swap');
+
+
+body {
+    background-image: url(./background1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: slideBackground 2s linear infinite alternate; /* Adjust the duration and timing function as needed */
+    
+}
+
+@keyframes slideBackground {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
